@@ -1,0 +1,13 @@
+/* src/styles/main.css */
+
+@import url('./variables.css');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: sans-serif;
+  background-color: var(--white);
+  color: #333;
+}
